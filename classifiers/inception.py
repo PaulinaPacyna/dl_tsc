@@ -60,7 +60,7 @@ class Classifier_INCEPTION:
             input_inception = input_tensor
 
         # kernel_size_s = [3, 5, 8, 11, 17]
-        kernel_size_s = [self.kernel_size // (2 ** i) for i in range(3)]
+        kernel_size_s = [self.kernel_size // (2**i) for i in range(3)]
 
         conv_list = []
 
